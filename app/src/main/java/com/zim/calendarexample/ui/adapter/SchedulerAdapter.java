@@ -1,9 +1,12 @@
-package com.zim.calendarexample;
+package com.zim.calendarexample.ui.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.zim.calendarexample.R;
+import com.zim.calendarexample.ui.view.ScheduleItem;
 
 import java.util.Collections;
 import java.util.List;

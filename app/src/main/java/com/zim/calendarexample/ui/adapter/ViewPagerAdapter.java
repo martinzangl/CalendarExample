@@ -1,4 +1,4 @@
-package com.zim.calendarexample;
+package com.zim.calendarexample.ui.adapter;
 
 import android.content.Context;
 import android.support.v4.view.PagerAdapter;
@@ -7,6 +7,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.ListView;
+
+import com.zim.calendarexample.R;
+import com.zim.calendarexample.ui.adapter.SchedulerAdapter;
 
 import java.util.ArrayList;
 import java.util.Arrays;

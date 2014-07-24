@@ -1,8 +1,10 @@
-package com.zim.calendarexample;
+package com.zim.calendarexample.ui.view;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.ListView;
+
+import com.zim.calendarexample.ui.MainActivity;
 
 /**
  * Created by martin.zangl on 7/24/14.

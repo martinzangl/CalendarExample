@@ -1,4 +1,4 @@
-package com.zim.calendarexample;
+package com.zim.calendarexample.ui;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -6,22 +6,19 @@ import android.os.Parcelable;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentStatePagerAdapter;
-import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AbsListView;
 import android.widget.ListView;
 
-import java.util.ArrayList;
+import com.zim.calendarexample.R;
+import com.zim.calendarexample.ui.adapter.SchedulerAdapter;
+import com.zim.calendarexample.ui.adapter.ViewPagerAdapter;
+
 import java.util.Arrays;
-import java.util.List;
 
 
 public class MainActivity extends FragmentActivity {
